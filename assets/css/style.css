@@ -207,3 +207,58 @@ footer {
     color: #70757a;
     margin: 0px 20px 0 20px
 }
+@media screen and (max-width:670px) {
+    main .campo-pesquisa {
+        width: 449px;
+        height: 44px;
+    }
+
+    .info-itens {
+        font-size: 13px;
+        color: #70757a;
+        margin: 0px 10px 0 10px
+    }
+}
+
+@media screen and (max-width:560px) {
+    main .campo-pesquisa {
+        width: 337px;
+        height: 44px;
+    }
+
+    main .logo-img {
+        height: 190px;
+        width: 400px;
+    }
+
+    #amazon-icon, #youtube-icon {
+        display: none;
+    }
+
+    .itens {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:460px) {
+
+    .info-itens {
+        font-size: 10px;
+        margin: 0px 6px 0 6px;
+    }
+    main .campo-pesquisa {
+        width: 320px;
+        height: 44px;
+    }
+    .itens {
+      width:  330px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    main .logo-img {
+        height: 170px;
+        width: 350px;
+    }
+
+}
