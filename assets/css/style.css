@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    justify-content: flex-end;
+    padding: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 4px 0px 15px;
+    margin-top: 15px
+}
+
+nav a {
+    font-size: 13px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav .menu-full:hover {
+    background-color: #f1f1f1;
+    /* efeito colocado na div pai (menu-full) para não interferir na div filho 1 e 2 (menu-apps e menu-apps-item) */
+
+}
+
+.menu-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+
+.menu-apps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 21px;
+    height: auto;
+    justify-content: center;
+
+}
+
+.menu-apps-item {
+    display: block;
+    background-color: rgb(90, 86, 86);
+    width: 5px;
+    height: 5px;
+    margin: 0.5px;
+    border-radius: 4px;
+}
+
+.botton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 1px 6px;
+    border: 1px solid transparent;
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .logo-img {
+    height: 200px;
+    width: 500px;
+}
+
+main .campo-pesquisa {
+    width: 561px;
+    height: 44px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 35px;
+    box-shadow: 0 0 10px -5px #777;
+}
+
+main .campo-pesquisa .fa-search {
+    font-size: 13px;
+    color: #9aa0a6;
+    margin-left: 10px;
+
+}
+
+main .campo-pesquisa .fa-microphone {
+    font-size: 13px;
+    color: #9aa0a6;
+    margin-right: 10px;
+
+
+}
+
+main .campo-pesquisa input {
+    width: 80%;
+    height: 38px;
+    border: none;
+    margin: 0 8px 0 8px;
+    font-size: 16px;
+
+}
+
+main .campo-pesquisa input:focus {
+    outline: 0;
+}
+
+.itens {
+    margin-left: 15px;
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.itens-recentes {
+    margin-right: 15px;
+}
+
+.itens-recentes-sombra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.fa-chess-pawn, .fa-instagram, .fa-whatsapp, .fa-youtube, .fa-twitter, .fa-twitch, .fa-facebook, .fa-amazon {
+    font-size: 23px;
+}
+
+
+.itens-recentes-hover {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.itens-recentes-hover:hover {
+    position: initial;
+    background-color: #e5e7e8;
+    width: 90px;
+    height: 90px;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 100%;
+    border-top: 1px solid #dadce0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infos-esquerda {
+    display: flex;
+
+}
+.info-itens {
+    font-size: 13px;
+    color: #70757a;
+    margin: 0px 20px 0 20px
+}
